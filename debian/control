@@ -1,0 +1,12 @@
+Source: ros-hydro-universal-teleop
+Section: misc
+Priority: extra
+Maintainer: v01d <v01d@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-joy, ros-hydro-keyboard, ros-hydro-message-generation, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-universal-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geometry-msgs, ros-hydro-message-runtime, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-std-msgs
+Description: Allows keyboard/joystick control of any robot by means of geometry_msgs::Twist messages
